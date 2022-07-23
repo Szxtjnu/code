@@ -1,0 +1,10 @@
+hanoi(3,a,b,c)
+   hanoi(2,a,c,b)
+      hanoi(1,a,b,c)   p:A to C  
+      p:A to B
+      hanoi(1,c,a,b)   p:C to B
+   p:A to C
+   hanoi(2,b,a,c)
+       hanoi(1,b,c,a)  p:B to A
+       p:B to C
+       hanoi(1,a,b,c)  p:A to C
