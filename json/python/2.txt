@@ -1,0 +1,4 @@
+def CalculateHomeTime():
+    totalvalue = (45.49 * (1 - 0.2))*171 + (9 + 170 * (0.41*170))
+    return totalvalue
+print(CalculateHomeTime())

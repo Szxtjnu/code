@@ -1,0 +1,10 @@
+def CalculateHomeTime():
+    time_second = 5 * (60*10+42) + 2 * (60*13+22)
+    start = 5 * 3600 + 21 * 60
+    end = start + time_second
+    h = end / 3600
+    m = (end%3600) / 10
+    s = end % 60
+    return h,m,s
+
+print(CalculateHomeTime())
